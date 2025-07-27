@@ -38,13 +38,5 @@ public class ArrayListEx{
         while(itr.hasNext()){
             System.out.print(itr.next()+" ");
         }
-
-
-
-
-
-
-
-
     }
 }
