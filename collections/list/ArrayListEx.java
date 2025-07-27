@@ -1,7 +1,4 @@
 import java.util.*;
-
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class ArrayListEx{
     public static void main(String args[]){
         List <Integer> list1=new ArrayList<>();
