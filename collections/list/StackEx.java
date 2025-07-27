@@ -15,10 +15,27 @@ public class StackEx {
         System.out.println(stack.pop());
         //to search the element
         System.out.println(stack.search(40));
+        //to iterate the elements
+        //1.using for loop
+        for(int i=0;i<stack.size();i++){
+            System.out.print(stack.get(i)+" ");
+        }
+        System.out.println();
+        //2.using dynamic for loop
+        for(int i: stack){
+            System.out.print(i+" ");
+        }
+        System.out.println();
+        //3. using iterator class
+        Iterator<Integer> itr=stack.iterator();
+        while(itr.hasNext()){
+            System.out.print(itr.next()+" ");
+        }
         stack.pop();
         stack.pop();
         stack.pop();
         stack.pop();
+        System.out.println();
         //to check the stack is empty is or not
         System.out.println(stack.isEmpty());
     }
